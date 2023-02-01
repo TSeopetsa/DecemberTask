@@ -1,0 +1,74 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #000000;
+  color: white;
+}
+
+.logo{
+    margin-right: 5px;
+}
+
+header{
+    background-color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-item a {
+    display: block;
+    right:auto;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item :hover {
+    background-color: #333333;
+}
+
+.joystick{
+    float: right;
+}
+
+.form-control {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-sm-3 col-form-label {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    height: 470px;
+    width: 620px;
+    background-color: #0b0b0b;
+    border-radius: 7px 7px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
